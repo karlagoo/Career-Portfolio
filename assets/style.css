@@ -2,20 +2,19 @@ body {
     margin: 0;
 }
 .topnav {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-image: url(https://wallpaperaccess.com/full/1755861.jpg);
     overflow: hidden;
     padding-top: 0;
 }
 
 .topnav a {
     float: right;
-    color: black;
+    color: #f9d6d4;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-    border: solid;
     border-radius: 50px;
+    background-color: #14414a;
 }
 
 .menu {
@@ -34,8 +33,14 @@ img {
     margin-right: auto;
 }
 
+.footer {
+    display: flex;
+    background-color: #316f72;
+    justify-content: right;
+}
+
 .content {
-    margin-left: 300px;
+    margin-left: 20vh;
 }
 
 .menu a:hover {
