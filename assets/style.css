@@ -28,6 +28,11 @@ h2 {
     background-color: #14414a;
 }
 
+img {
+    height: 250px;
+    width: 400px;
+}
+
 .menu {
     display: flex;
     justify-content: space-evenly;
@@ -42,7 +47,7 @@ h2 {
     background-color: #14414a;
 }
 
-img {
+.topnav img {
     display: block;
     align-items: center;
     width: 200px;
@@ -75,20 +80,16 @@ img {
     /* bottom: 0; */
 }
 
-.grid-container {
-    display: block;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: px;
-    /* background-color: #eeaeca; */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    grid-gap: 10px;
     padding: 10px;
 }
 
-.grid-container > div {
-    /* background-color: rgba(255, 255, 255, 0.8); */
+.container > div {
     text-align: center;
     padding: 10px 0;
     font-size: 20px;
 }
-
-
-
