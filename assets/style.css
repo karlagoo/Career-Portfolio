@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: antiquewhite;
 }
 
 h1 {
@@ -44,7 +45,6 @@ img {
     text-decoration: none;
     font-size: 20px;
     border-radius: 50px;
-    background-color: #14414a;
 }
 
 .topnav img {
@@ -65,7 +65,7 @@ img {
 }
 
 .footer a {
-    float: left;
+    float: center;
     color: #f9d6d4;
     padding: 14px 16px;
     text-decoration: none;
@@ -73,8 +73,9 @@ img {
 
 .footer {
     position: absolute;
+    text-align: center;
     left: 0;
-    height: 10vh;
+    height: 25vh;
     width: 100%;
     background-color: #14414a;
     /* bottom: 0; */
@@ -83,13 +84,32 @@ img {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    grid-gap: 10px;
+    justify-content: center;
     padding: 10px;
 }
 
 .container > div {
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 10px;
     font-size: 20px;
+}
+
+#project1-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    font-size: 30px;
+
+    /* height: 20vh; */
+}
+
+#project1-container h4 {
+    margin: 0
+}
+
+#project1-container img {
+    height: 500px;
+    width: 600px;
 }
