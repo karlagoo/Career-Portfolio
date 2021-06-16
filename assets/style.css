@@ -6,7 +6,9 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 5em;
+    font-size: 3em;
+    border: black solid 5px;
+    background-color: antiquewhite;
 }
 
 h2 {
@@ -45,6 +47,7 @@ img {
     text-decoration: none;
     font-size: 20px;
     border-radius: 50px;
+    box-shadow: #eeaeca 5px 5px 5px;
 }
 
 .topnav img {
@@ -62,6 +65,7 @@ img {
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
+
 }
 
 .footer a {
@@ -106,7 +110,8 @@ img {
 }
 
 #project1-container h4 {
-    margin: 0
+    margin: 0;
+    text-align: center;
 }
 
 #project1-container img {
