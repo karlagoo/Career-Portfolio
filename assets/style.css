@@ -2,6 +2,10 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+h2 {
+    text-align: center;
+}
 .topnav {
     background-image: url(https://wallpaperaccess.com/full/1755861.jpg);
     overflow: hidden;
@@ -24,6 +28,14 @@ body {
     margin: 5px;
 }
 
+.menu a:hover {
+    background-color: #eeaeca;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #14414a;
+}
+
 img {
     display: block;
     align-items: center;
@@ -34,15 +46,11 @@ img {
     margin-right: auto;
 }
 
-
-.footer {
-    position: absolute;
-    left: 0;
-    height: 10vh;
-    width: 100%;
-    background-color: #14414a;
+.about-me {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
     text-align: center;
-    bottom: 0;
 }
 
 .footer a {
@@ -52,34 +60,29 @@ img {
     text-decoration: none;
 }
 
-.menu a:hover {
-    background-color: #eeaeca;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 50px;
+.footer {
+    position: absolute;
+    left: 0;
+    height: 10vh;
+    width: 100%;
     background-color: #14414a;
+    /* bottom: 0; */
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(50px, auto);
-  }
+.grid-container {
+    display: block;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: px;
+    background-color: #eeaeca;
+    padding: 10px;
+}
 
-  .one {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  .two {
-    grid-column: 2;
-    grid-row: 1;
-  }
-  .three {
-    grid-column: 1
-    grid-row: 2;
-  }
-  .four {
-    grid-column: 2;
-    grid-row: 2;
-  }  
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+
+
