@@ -115,6 +115,7 @@ img {
 }
 
 #project1-container img {
-    height: 500px;
-    width: 600px;
+    height: 80vh;
+    width: 40vw;
 }
+
