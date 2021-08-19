@@ -26,5 +26,5 @@ For the body/main section:
 
 LASTLY, for the footer I placed my contact information. Since it is at the bottom of the page, I wanted the first navigation button to be "Contact Me" so as to take the eyes of the viewer all throughout the page before clicking on my contact info.
 
-
+## Link to deployed portfolio: https://karlagoo.github.io/Career-Portfolio/
 
